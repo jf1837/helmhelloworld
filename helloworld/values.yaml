@@ -4,4 +4,5 @@ helloworld:
     tag: latest
     pullPolicy: IfNotPresent
   service:
-    ingressClass: internal-ingress
+    type: ClusterIP
+    port: 80
